@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@200;300&family=Ysabeau+SC:wght@300&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -6,6 +8,77 @@
 body{
     background-image: url(../source/fondo.jpg);
 }
+main{
+    width: 100%;
+    align-content: center;
+}
+.navegacion{
+    width: 1300px;
+    margin: 30px auto;
+    background-color: dimgray;
+    justify-content:center;
+}
+.navegacion ul{
+    list-style: none;
+    text-align: center;
+}
+.menu > li{
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+}
+.menu > li > a {
+    padding: 20px 30px;
+    color: black;
+    font-family: 'Lexend Peta', sans-serif;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    font-size: 20px;
+    margin: 25px 0px 20px 0px
+} 
+.menu li a:hover{
+    background-color:rgb(177, 177, 174);
+    border-radius:10px;
+    transition: 1s;
+}
+.submenu{
+    visibility: hidden;
+    transition: opacity 1s;
+    opacity: 0;
+    position: absolute;
+    display:block;
+    background-color: dimgray;
+    width: 120%;
+}
+.submenu li a {
+    display: block;
+    padding: 15px;
+    background-color: dimgray;
+    color: black;
+    font-family: 'Lexend Peta', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+}
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}
+footer{
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(177, 177, 174);
+    margin: 20px 0;
+    font-family: 'Lexend Peta', sans-serif;
+}
+.menu img {
+    width: 110px;
+    height: 100px;
+    margin-top: -20px;
+    position: relative;
+    top: 13px;
+  }
 .wrapper{
     margin: auto;
     width: 90vw;
@@ -14,6 +87,39 @@ body{
     background-color: rgb(100, 100, 100);
     text-align: center;
 }
+
+.titulo{
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    margin: 15px;
+    font-family: 'Lexend Peta', sans-serif;
+}
+
+.card{
+    width: 30%; 
+    margin: 25px;
+    display: inline-block;
+    object-fit: cover;
+}
+.img{
+    width: 30%; 
+    margin: 252px;
+    object-fit: cover;
+}
+
+.card-image{
+    width: 100%;
+    border-radius: 25px;
+    transition: transform 0.6s ease;
+    margin: 20px;
+    display: inline-block;
+    object-fit: cover;
+}
+.card-image:hover{
+    transform: translateY(-15px);
+}
+
 
 .titulo{
     color: black;
