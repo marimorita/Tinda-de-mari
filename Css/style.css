@@ -120,25 +120,3 @@ footer{
     transform: translateY(-15px);
 }
 
-#myImage {
-    width: 200px;
-    height: 200px;
-  }
-  
-  button {
-    background-color:rgb(100, 100, 100);
-    font-family: 'Lexend Peta', sans-serif;
-    border-radius: 15px;
-    border: none;
-    font-size: 20px;
-}
-  button:hover{
-    background-color:rgb(177, 177, 174);
-    border-radius: 15px;
-    transition: 1s;
-    font-size: 22px;
-  }
-.scroll{
-    background-color: rgb(100, 100, 100);
-    box-shadow: .1rem .2rem .3rem #333;
-}
